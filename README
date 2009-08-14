@@ -1,0 +1,27 @@
+GVSMSProwl 0.1
+Written by Mike Cherry <mcherry@inditech.org>
+
+
+Send new Google Voice SMS messages as Prowl notifications to iPhone
+
+
+This script requires the PHP class for Google Voice and Prowl. Edit 
+config.php with your info and run the script. PHP needs to be compiled 
+with Curl support. This script is a down and dirty solution so please 
+no comments about efficiency or ugly code ;) Feel free to modify 
+anything and redistribute for whatever use you see fit. If you make 
+something cool, give me a shout!
+
+
+Credits:
+
+
+class.googlevoice.php was written by tylerhall and the original can be 
+found at http://github.com/tylerhall/google-voice-dialer/tree/master
+
+ProwlPHP.php was written by Fenric and can be found at 
+http://github.com/Fenric/ProwlPHP/tree/master
+
+The sksort() function in gvsmsprowl.php was written by serpro@gmail.com 
+and was found in the ksort() comments at 
+http://us2.php.net/manual/en/function.ksort.php#89552
