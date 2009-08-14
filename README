@@ -5,7 +5,7 @@ Written by Mike Cherry <mcherry@inditech.org>
 Send new Google Voice SMS messages as Prowl notifications to iPhone
 
 
-This script requires the PHP class for Google Voice and Prowl. Edit 
+This is a CLI script and requires the PHP class for Google Voice and Prowl. Edit 
 config.php with your info and run the script. PHP needs to be compiled 
 with Curl support. This script is a down and dirty solution so please 
 no comments about efficiency or ugly code ;) Feel free to modify 
